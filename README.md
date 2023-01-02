@@ -15,14 +15,14 @@ We identify this problem as a stochastic problem and we decide to use two approa
 Our code is based on the following pseudocode[2].
 
 <figure>
-  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/policy-iteration-pseudocode" alt="my alt text" width="300" height="250"/>
+  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/policy-iteration-pseudocode.png" alt="my alt text" width="300" height="250"/>
   <figcaption align="bottom">Policy iteration</figcaption>
 </figure>
 
 &nbsp;
 
 <figure>
-  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/value-iteration-pseudocode" alt="my alt text" width="300" height="250"/>
+  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/value-iteration-pseudocode.png" alt="my alt text" width="300" height="250"/>
   <figcaption align="bottom">Value iteration</figcaption>
 </figure>
 
@@ -30,17 +30,37 @@ Our code is based on the following pseudocode[2].
 
 ## Results
 
+* Policy Iteration (PI):
+
 <figure>
-  <img src="https://github.com/neilchen1998/ai-snake/blob/main/gifs/training-early-stage.gif" alt="my alt text" width="300" height="250"/>
-  <figcaption align="bottom">The early stage of training</figcaption>
+  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/policy-iteration-policy.png" alt="my alt text" width="300" height="250"/>
+  <figcaption align="bottom">Policy of Policy Iteration</figcaption>
 </figure>
 
 &nbsp;
 
 <figure>
-  <img src="https://github.com/neilchen1998/ai-snake/blob/main/gifs/result-graph.png" alt="my alt text" width="300" height="250"/>
-  <figcaption align="bottom">A snapshot of the result graph</figcaption>
+  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/policy-iteration-value-function.png" alt="my alt text" width="300" height="250"/>
+  <figcaption align="bottom">Value function of Policy Iteration</figcaption>
 </figure>
+
+&nbsp;
+
+* Value Iteration (VI):
+
+<figure>
+  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/value-iteration-policy.png" alt="my alt text" width="300" height="250"/>
+  <figcaption align="bottom">Policy of Value Iteration</figcaption>
+</figure>
+
+&nbsp;
+
+<figure>
+  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/value-iteration-value-function.png" alt="my alt text" width="300" height="250"/>
+  <figcaption align="bottom">Value function of Value Iteration</figcaption>
+</figure>
+
+&nbsp;
 
 &nbsp;
 
