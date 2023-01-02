@@ -8,9 +8,25 @@ The agent wants to cross the frozen lake from Start (S) to Goal (G) without fall
 
 We identify this problem as a stochastic problem and we decide to use two approaches to solve this task: Policy Iteration (PI) and Value Iteration (VI).
 
-* Policy Iteration (PI): Firstly, we randomly initialize a value function. Secondly, we iterate the value function over and over until the it converges (policy evaluation). Thridly, we create a policy and use that 
+* Policy Iteration (PI): Firstly, we randomly initialize a value function. Secondly, we iterate the value function over and over until the it converges (policy evaluation). Thridly, we use that value function to get our policy (policy improvement). 
 
-* Value Iteration (VI):
+* Value Iteration (VI): Firstly, we randomly initialize a value function. Secondly, we find the optimal value function. Thirdly, we extract a policy based on that value function.
+
+Our code is based on the following pseudocode[2].
+
+<figure>
+  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/policy-iteration-pseudocode" alt="my alt text" width="300" height="250"/>
+  <figcaption align="bottom">Policy iteration</figcaption>
+</figure>
+
+&nbsp;
+
+<figure>
+  <img src="https://github.com/neilchen1998/frozen-lake/blob/main/graphs/value-iteration-pseudocode" alt="my alt text" width="300" height="250"/>
+  <figcaption align="bottom">Value iteration</figcaption>
+</figure>
+
+&nbsp;
 
 ## Results
 
